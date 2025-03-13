@@ -4,6 +4,9 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.HashSet;
+import java.util.Set;
+
 @Getter @Setter
 @Entity @Table(name = "users")
 public class User {
@@ -17,4 +20,11 @@ public class User {
     @Column(nullable = false)
     private String password;
 
+    @ManyToMany
+    @JoinTable(
+            name = "user_connections",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "connection_id")
+    )
+    private Set<User> connections = new HashSet<>();
 }
