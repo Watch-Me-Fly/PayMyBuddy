@@ -1,4 +1,4 @@
-package com.paymybuddy.paymybuddy.model;
+package com.paymybuddy.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
