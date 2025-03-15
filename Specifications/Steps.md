@@ -13,7 +13,7 @@
    * [Enable logging for debug](https://github.com/Watch-Me-Fly/PayMyBuddy/commit/45b1cfc2a2f15a5dcec8bf00deb312670b8ef5df)
 ----
 ### Application Security
-1. 
+1. User login
 ----
 ### Application Development
 #### Backend 
