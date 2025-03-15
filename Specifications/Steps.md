@@ -13,10 +13,12 @@
    * [Enable logging for debug](https://github.com/Watch-Me-Fly/PayMyBuddy/commit/45b1cfc2a2f15a5dcec8bf00deb312670b8ef5df)
 ----
 ### Application Security
-
+1. 
 ----
 ### Application Development
 #### Backend 
+1. Create Data Access Layers for DB interaction
+2. Create database interaction repositories
 #### Frontend
 ### Testing & Debugging
 ### Presentation
