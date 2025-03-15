@@ -12,6 +12,9 @@
    * [Encrypt Communication](https://github.com/Watch-Me-Fly/PayMyBuddy/commit/8ebe6ec3f513690a755dedd93d83051b2a8c7c13)
    * [Enable logging for debug](https://github.com/Watch-Me-Fly/PayMyBuddy/commit/45b1cfc2a2f15a5dcec8bf00deb312670b8ef5df)
 ----
+### Application Security
+
+----
 ### Application Development
 #### Backend 
 #### Frontend
